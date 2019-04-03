@@ -1,0 +1,26 @@
+{
+  "name": "ely.play",
+  "version": "1.0.0",
+  "description": "New game engine by ely.framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoLing33/ely.play.git"
+  },
+  "author": "Diego Ling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoLing33/ely.play/issues"
+  },
+  "homepage": "https://github.com/DiegoLing33/ely.play#readme",
+  "dependencies": {
+    "ely.core": "^1.0.13"
+  }
+}
